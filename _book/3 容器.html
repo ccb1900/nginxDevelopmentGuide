@@ -1,0 +1,654 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>3 容器 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="4 内存管理.html" />
+    
+    
+    <link rel="prev" href="2 字符串.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="1 介绍.html">
+            
+                <a href="1 介绍.html">
+            
+                    
+                    介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="2 字符串.html">
+            
+                <a href="2 字符串.html">
+            
+                    
+                    2 字符串
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="3 容器.html">
+            
+                <a href="3 容器.html">
+            
+                    
+                    3 容器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="4 内存管理.html">
+            
+                <a href="4 内存管理.html">
+            
+                    
+                    4 内存管理
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="5 日志.html">
+            
+                <a href="5 日志.html">
+            
+                    
+                    5 日志记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="6 循环.html">
+            
+                <a href="6 循环.html">
+            
+                    
+                    6 循环
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="7 缓冲.html">
+            
+                <a href="7 缓冲.html">
+            
+                    
+                    7 缓冲
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="8 网络.html">
+            
+                <a href="8 网络.html">
+            
+                    
+                    8 网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="9 事件.html">
+            
+                <a href="9 事件.html">
+            
+                    
+                    9 事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="10 进程.html">
+            
+                <a href="10 进程.html">
+            
+                    
+                    10 进程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="11 模块.html">
+            
+                <a href="11 模块.html">
+            
+                    
+                    11 模块
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="12 HTTP.html">
+            
+                <a href="12 HTTP.html">
+            
+                    
+                    12 HTTP
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >3 容器</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x6570;&#x7EC4;">&#x6570;&#x7EC4;</h1>
+<p>nginx&#x6570;&#x7EC4;&#x7C7B;&#x578B;ngx_array_t&#x7684;&#x5B9A;&#x4E49;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-c"><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span> {
+    <span class="hljs-keyword">void</span>        *elts;
+    <span class="hljs-keyword">ngx_uint_t</span>   nelts;
+    <span class="hljs-keyword">size_t</span>       size;
+    <span class="hljs-keyword">ngx_uint_t</span>   nalloc;
+    <span class="hljs-keyword">ngx_pool_t</span>  *pool;
+} <span class="hljs-keyword">ngx_array_t</span>;
+</code></pre>
+<p>&#x6570;&#x7EC4;&#x7684;&#x5143;&#x7D20;&#x53EF;&#x901A;&#x8FC7;elts&#x5B57;&#x6BB5;&#x83B7;&#x5F97;&#x3002;&#x5143;&#x7D20;&#x7684;&#x6570;&#x91CF;&#x4FDD;&#x5B58;&#x5728;nelts&#x4E2D;&#x3002;
+size&#x5B57;&#x6BB5;&#x4FDD;&#x5B58;&#x5355;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5927;&#x5C0F;&#xFF0C;&#x5E76;&#x5728;&#x521D;&#x59CB;&#x5316;&#x6570;&#x7EC4;&#x65F6;&#x8BBE;&#x7F6E;&#x3002;</p>
+<p>&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>ngx_array_create(pool&#xFF0C;n&#xFF0C;size)</code>&#x8C03;&#x7528;&#x5728;&#x6C60;&#x4E2D;&#x521B;&#x5EFA;&#x6570;&#x7EC4;&#x3002;
+&#x53EF;&#x4EE5;&#x4F7F;&#x7528;<code>ngx_array_init(array&#xFF0C;pool&#xFF0C;n&#xFF0C;size)</code>&#x8C03;&#x7528;&#x521D;&#x59CB;&#x5316;&#x5DF2;&#x5206;&#x914D;&#x7684;&#x6570;&#x7EC4;&#x5BF9;&#x8C61;&#x3002;</p>
+<pre><code class="lang-c"><span class="hljs-keyword">ngx_array_t</span>  *a, b;
+
+<span class="hljs-comment">/* &#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x5305;&#x542B;10&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x6570;&#x7EC4;&#xFF0C;&#x5E76;&#x5206;&#x914D;&#x5185;&#x5B58; */</span>
+a = ngx_array_create(pool, <span class="hljs-number">10</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">ngx_str_t</span>));
+
+<span class="hljs-comment">/* &#x521D;&#x59CB;&#x5316;10&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x6570;&#x7EC4; */</span>
+ngx_array_init(&amp;b, pool, <span class="hljs-number">10</span>, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">ngx_str_t</span>));
+</code></pre>
+<p>&#x4F7F;&#x7528;&#x4E0B;&#x9762;&#x7684;&#x51FD;&#x6570;&#x5411;&#x6570;&#x7EC4;&#x6DFB;&#x52A0;&#x5143;&#x7D20;&#x3002;</p>
+<ul>
+<li>ngx_array_push(a) &#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x5C3E;&#x5143;&#x7D20;&#x5E76;&#x8FD4;&#x56DE;&#x6307;&#x9488;</li>
+<li>ngx_array_push_n(a, n) &#x6DFB;&#x52A0;n&#x4E2A;&#x5C3E;&#x5143;&#x7D20;&#x5E76;&#x8FD4;&#x56DE;&#x6307;&#x5411;&#x7B2C;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x7684;&#x6307;&#x9488;</li>
+</ul>
+<p>&#x5982;&#x679C;&#x5F53;&#x524D;&#x5206;&#x914D;&#x7684;&#x5185;&#x5B58;&#x4E0D;&#x8DB3;&#x4EE5;&#x7528;&#x4E8E;&#x65B0;&#x5143;&#x7D20;&#xFF0C;&#x5206;&#x914D;&#x5143;&#x7D20;&#x7684;&#x65B0;&#x5185;&#x5B58;&#xFF0C;&#x5E76;&#x5C06;&#x73B0;&#x6709;&#x5143;&#x7D20;&#x590D;&#x5236;&#x5230;&#x8BE5;&#x5185;&#x5B58;&#x3002;
+&#x65B0;&#x7684;&#x5185;&#x5B58;&#x5757;&#x901A;&#x5E38;&#x662F;&#x73B0;&#x6709;&#x7684;&#x4E24;&#x500D;&#x3002;</p>
+<pre><code class="lang-c">s = ngx_array_push(a);
+ss = ngx_array_push_n(&amp;b, <span class="hljs-number">3</span>);
+</code></pre>
+<h1 id="&#x5217;&#x8868;">&#x5217;&#x8868;</h1>
+<p>&#x5217;&#x8868;&#x7C7B;&#x578B;&#x5B9A;&#x4E49;&#x5982;&#x4E0B;&#xFF1A;</p>
+<pre><code class="lang-c"><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span> {
+    <span class="hljs-keyword">ngx_list_part_t</span>  *last;
+    <span class="hljs-keyword">ngx_list_part_t</span>   part;
+    <span class="hljs-keyword">size_t</span>            size;
+    <span class="hljs-keyword">ngx_uint_t</span>        nalloc;
+    <span class="hljs-keyword">ngx_pool_t</span>       *pool;
+} <span class="hljs-keyword">ngx_list_t</span>;
+</code></pre>
+<pre><code class="lang-c"><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span> ngx_list_part_s  <span class="hljs-keyword">ngx_list_part_t</span>;
+
+<span class="hljs-keyword">struct</span> ngx_list_part_s {
+    <span class="hljs-keyword">void</span>             *elts;
+    <span class="hljs-keyword">ngx_uint_t</span>        nelts;
+    <span class="hljs-keyword">ngx_list_part_t</span>  *next;
+};
+</code></pre>
+<pre><code>ngx_str_t        *v;
+ngx_uint_t        i;
+ngx_list_t       *list;
+ngx_list_part_t  *part;
+
+list = ngx_list_create(pool, 100, sizeof(ngx_str_t));
+if (list == NULL) { /* error */ }
+
+/* add items to the list */
+
+v = ngx_list_push(list);
+if (v == NULL) { /* error */ }
+ngx_str_set(v, &quot;foo&quot;);
+
+v = ngx_list_push(list);
+if (v == NULL) { /* error */ }
+ngx_str_set(v, &quot;bar&quot;);
+
+/* iterate over the list */
+
+part = &amp;list-&gt;part;
+v = part-&gt;elts;
+
+for (i = 0; /* void */; i++) {
+
+    if (i &gt;= part-&gt;nelts) {
+        if (part-&gt;next == NULL) {
+            break;
+        }
+
+        part = part-&gt;next;
+        v = part-&gt;elts;
+        i = 0;
+    }
+
+    ngx_do_smth(&amp;v[i]);
+}
+</code></pre><h1 id="&#x961F;&#x5217;">&#x961F;&#x5217;</h1>
+<pre><code class="lang-c"><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span> ngx_queue_s  <span class="hljs-keyword">ngx_queue_t</span>;
+
+<span class="hljs-keyword">struct</span> ngx_queue_s {
+    <span class="hljs-keyword">ngx_queue_t</span>  *prev;
+    <span class="hljs-keyword">ngx_queue_t</span>  *next;
+};
+</code></pre>
+<pre><code class="lang-c"><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span> {
+    <span class="hljs-keyword">ngx_str_t</span>    value;
+    <span class="hljs-keyword">ngx_queue_t</span>  <span class="hljs-built_in">queue</span>;
+} <span class="hljs-keyword">ngx_foo_t</span>;
+
+<span class="hljs-keyword">ngx_foo_t</span>    *f;
+<span class="hljs-keyword">ngx_queue_t</span>   values;
+
+ngx_queue_init(&amp;values);
+
+f = ngx_palloc(pool, <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">ngx_foo_t</span>));
+<span class="hljs-keyword">if</span> (f == <span class="hljs-literal">NULL</span>) { <span class="hljs-comment">/* error */</span> }
+ngx_str_set(&amp;f-&gt;value, <span class="hljs-string">&quot;foo&quot;</span>);
+
+ngx_queue_insert_tail(&amp;values, f);
+
+<span class="hljs-comment">/* insert more nodes here */</span>
+
+<span class="hljs-keyword">for</span> (q = ngx_queue_head(&amp;values);
+     q != ngx_queue_sentinel(&amp;values);
+     q = ngx_queue_next(q))
+{
+    f = ngx_queue_data(q, <span class="hljs-keyword">ngx_foo_t</span>, <span class="hljs-built_in">queue</span>);
+
+    ngx_do_smth(&amp;f-&gt;value);
+}
+</code></pre>
+<h1 id="&#x7EA2;&#x9ED1;&#x6811;">&#x7EA2;&#x9ED1;&#x6811;</h1>
+<pre><code class="lang-c"><span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span> {
+    <span class="hljs-keyword">ngx_rbtree_t</span>       rbtree;
+    <span class="hljs-keyword">ngx_rbtree_node_t</span>  sentinel;
+
+    <span class="hljs-comment">/* custom per-tree data here */</span>
+} <span class="hljs-keyword">my_tree_t</span>;
+
+<span class="hljs-keyword">typedef</span> <span class="hljs-keyword">struct</span> {
+    <span class="hljs-keyword">ngx_rbtree_node_t</span>  rbnode;
+
+    <span class="hljs-comment">/* custom per-node data */</span>
+    <span class="hljs-keyword">foo_t</span>              val;
+} <span class="hljs-keyword">my_node_t</span>;
+</code></pre>
+<pre><code class="lang-c"><span class="hljs-keyword">my_tree_t</span>  root;
+
+ngx_rbtree_init(&amp;root.rbtree, &amp;root.sentinel, insert_value_function);
+</code></pre>
+<pre><code>my_node_t *
+my_rbtree_lookup(ngx_rbtree_t *rbtree, foo_t *val, uint32_t hash)
+{
+    ngx_int_t           rc;
+    my_node_t          *n;
+    ngx_rbtree_node_t  *node, *sentinel;
+
+    node = rbtree-&gt;root;
+    sentinel = rbtree-&gt;sentinel;
+
+    while (node != sentinel) {
+
+        n = (my_node_t *) node;
+
+        if (hash != node-&gt;key) {
+            node = (hash &lt; node-&gt;key) ? node-&gt;left : node-&gt;right;
+            continue;
+        }
+
+        rc = compare(val, node-&gt;val);
+
+        if (rc &lt; 0) {
+            node = node-&gt;left;
+            continue;
+        }
+
+        if (rc &gt; 0) {
+            node = node-&gt;right;
+            continue;
+        }
+
+        return n;
+    }
+
+    return NULL;
+}
+</code></pre><pre><code class="lang-c"><span class="hljs-keyword">my_node_t</span>          *my_node;
+<span class="hljs-keyword">ngx_rbtree_node_t</span>  *node;
+
+my_node = ngx_palloc(...);
+init_custom_data(&amp;my_node-&gt;val);
+
+node = &amp;my_node-&gt;rbnode;
+node-&gt;key = create_key(my_node-&gt;val);
+
+ngx_rbtree_insert(&amp;root-&gt;rbtree, node);
+</code></pre>
+<pre><code class="lang-c">ngx_rbtree_delete(&amp;root-&gt;rbtree, node);
+</code></pre>
+<h1 id="&#x54C8;&#x5E0C;">&#x54C8;&#x5E0C;</h1>
+<pre><code class="lang-c"><span class="hljs-keyword">ngx_hash_t</span>       foo_hash;
+<span class="hljs-keyword">ngx_hash_init_t</span>  hash;
+
+hash.hash = &amp;foo_hash;
+hash.key = ngx_hash_key;
+hash.max_size = <span class="hljs-number">512</span>;
+hash.bucket_size = ngx_align(<span class="hljs-number">64</span>, ngx_cacheline_size);
+hash.name = <span class="hljs-string">&quot;foo_hash&quot;</span>;
+hash.pool = cf-&gt;pool;
+hash.temp_pool = cf-&gt;temp_pool;
+</code></pre>
+<pre><code class="lang-c"><span class="hljs-keyword">ngx_hash_keys_arrays_t</span>  foo_keys;
+
+foo_keys.pool = cf-&gt;pool;
+foo_keys.temp_pool = cf-&gt;temp_pool;
+
+ngx_hash_keys_array_init(&amp;foo_keys, NGX_HASH_SMALL);
+</code></pre>
+<pre><code class="lang-c"><span class="hljs-keyword">ngx_str_t</span> k1 = ngx_string(<span class="hljs-string">&quot;key1&quot;</span>);
+<span class="hljs-keyword">ngx_str_t</span> k2 = ngx_string(<span class="hljs-string">&quot;key2&quot;</span>);
+
+ngx_hash_add_key(&amp;foo_keys, &amp;k1, &amp;my_data_ptr_1, NGX_HASH_READONLY_KEY);
+ngx_hash_add_key(&amp;foo_keys, &amp;k2, &amp;my_data_ptr_2, NGX_HASH_READONLY_KEY);
+</code></pre>
+<pre><code class="lang-c">ngx_hash_init(&amp;hash, foo_keys.keys.elts, foo_keys.keys.nelts);
+</code></pre>
+<pre><code class="lang-c"><span class="hljs-keyword">my_data_t</span>   *data;
+<span class="hljs-keyword">ngx_uint_t</span>   key;
+
+key = ngx_hash_key(k1.data, k1.len);
+
+data = ngx_hash_find(&amp;foo_hash, key, k1.data, k1.len);
+<span class="hljs-keyword">if</span> (data == <span class="hljs-literal">NULL</span>) {
+    <span class="hljs-comment">/* key not found */</span>
+}
+</code></pre>
+<h1 id="&#x901A;&#x914D;&#x7B26;&#x5339;&#x914D;">&#x901A;&#x914D;&#x7B26;&#x5339;&#x914D;</h1>
+<pre><code class="lang-c"><span class="hljs-keyword">ngx_hash_init_t</span>      hash
+<span class="hljs-keyword">ngx_hash_combined_t</span>  foo_hash;
+
+hash.hash = &amp;foo_hash.hash;
+hash.key = ...;
+</code></pre>
+<pre><code class="lang-c"><span class="hljs-comment">/* k1 = &quot;.example.org&quot;; */</span>
+<span class="hljs-comment">/* k2 = &quot;foo.*&quot;;        */</span>
+ngx_hash_add_key(&amp;foo_keys, &amp;k1, &amp;data1, NGX_HASH_WILDCARD_KEY);
+ngx_hash_add_key(&amp;foo_keys, &amp;k2, &amp;data2, NGX_HASH_WILDCARD_KEY);
+</code></pre>
+<pre><code class="lang-c"><span class="hljs-keyword">if</span> (foo_keys.dns_wc_head.nelts) {
+
+    ngx_qsort(foo_keys.dns_wc_head.elts,
+              (<span class="hljs-keyword">size_t</span>) foo_keys.dns_wc_head.nelts,
+              <span class="hljs-keyword">sizeof</span>(<span class="hljs-keyword">ngx_hash_key_t</span>),
+              cmp_dns_wildcards);
+
+    hash.hash = <span class="hljs-literal">NULL</span>;
+    hash.temp_pool = pool;
+
+    <span class="hljs-keyword">if</span> (ngx_hash_wildcard_init(&amp;hash, foo_keys.dns_wc_head.elts,
+                               foo_keys.dns_wc_head.nelts)
+        != NGX_OK)
+    {
+        <span class="hljs-keyword">return</span> NGX_ERROR;
+    }
+
+    foo_hash.wc_head = (<span class="hljs-keyword">ngx_hash_wildcard_t</span> *) hash.hash;
+}
+</code></pre>
+<pre><code class="lang-c"><span class="hljs-comment">/* key = &quot;bar.example.org&quot;; &#x2014; will match &quot;.example.org&quot; */</span>
+<span class="hljs-comment">/* key = &quot;foo.example.com&quot;; &#x2014; will match &quot;foo.*&quot;        */</span>
+
+hkey = ngx_hash_key(key.data, key.len);
+res = ngx_hash_find_combined(&amp;foo_hash, hkey, key.data, key.len);
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="2 字符串.html" class="navigation navigation-prev " aria-label="Previous page: 2 字符串">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="4 内存管理.html" class="navigation navigation-next " aria-label="Next page: 4 内存管理">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"3 容器","level":"1.4","depth":1,"next":{"title":"4 内存管理","level":"1.5","depth":1,"path":"4 内存管理.md","ref":"4 内存管理.md","articles":[]},"previous":{"title":"2 字符串","level":"1.3","depth":1,"path":"2 字符串.md","ref":"2 字符串.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload"],"root":"./docs","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"gitbook":"*"},"file":{"path":"3 容器.md","mtime":"2017-04-20T11:22:23.758Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-04-20T14:09:13.693Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
