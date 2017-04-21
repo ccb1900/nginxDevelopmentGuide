@@ -1,2 +1,2 @@
-- [nginx开发文档中文版](zh/)
-- [nginx模块翻译](nginx_modules/)
+- [nginx开发文档中文版](nginx_dev/)
+- [nginx用户手册](nginx_user/)
