@@ -2,7 +2,7 @@
 # 介绍
 - [安装](ngx_http_upstream_module.md)
 - [新手向导](Beginner’s Guide.md)
-- [管理员向导](ngx_http_upstream_module.md)
+- [管理员向导](admin's guide.md)
 - [控制nginx](Controlling nginx.md)
 - [连接处理方法](ngx_http_upstream_module.md)
 - [设置hash](ngx_http_upstream_module.md)
